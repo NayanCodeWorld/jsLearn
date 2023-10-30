@@ -1,5 +1,3 @@
-/*
-
 console.log("1" + 2); // 12 string
 console.log("3" - 2); // 1 number
 console.log("4" * 2); // 8 number
@@ -28,5 +26,3 @@ console.log(+""); // 0 number
 
 console.log(1 + "1" - 1); //10 number
 console.log("1" + 1 - 1); //10 number
-
-*/

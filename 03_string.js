@@ -29,4 +29,3 @@ console.log(`hi I am ${" nayan!".repeat(3)}`); // hi I am  nayan! nayan! nayan!
 //TODO (7) replace() => String.replace(string):string => Replaces the occurrences of a string or pattern inside a string with another string, and return a new string without modifying the original string.
 console.log("sun".replace("u", "a")); // "san"
 //Todo: (8)
-console.log();
