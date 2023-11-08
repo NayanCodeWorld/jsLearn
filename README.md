@@ -1,2 +1,3 @@
 # jsLearn
-### 1. typeCoversion
+### 1. typeConversion
+### 2. typeConversionOperations
