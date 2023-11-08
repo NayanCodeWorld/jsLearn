@@ -26,3 +26,6 @@ console.log(+""); // 0 number
 
 console.log(1 + "1" - 1); //10 number
 console.log("1" + 1 - 1); //10 number
+
+console.log(Number(null)); // 0
+console.log(Number(undefined)); // NaN

@@ -76,3 +76,41 @@
 // }
 
 //-----------------------------------------------------------------------------------
+// var promise1 = new Promise(function (resolve, reject) {
+//   setTimeout(resolve, 500, "one");
+// });
+// var promise2 = new Promise(function (resolve, reject) {
+//   setTimeout(resolve, 100, "two");
+// });
+
+// Promise.all([promise1, promise2]).then((value) => {
+//   console.log(value);
+//   console;
+// });
+
+// Promise.race([promise1, promise2]).then(function (value) {
+//   console.log(value); // "two" // Both promises will resolve, but promise2 is faster
+// });
+
+// Promise.allSettled([promise1, promise2]).then(function (value) {
+//   console.log(value); // "two" // Both promises will resolve, but promise2 is faster
+// });
+
+//----------------------------------------------------------------
+// let x = 1;
+
+// if (!!x) {
+//   console.log("true");
+// } else {
+//   console.log("false");
+// }
+//----------------------------------------------------------------
+//console.log(typeof eval("1" + "2"));
+//----------------------------------------------------------------
+function countParameters(a, b, c) {
+  console.log();
+}
+
+countParameters(2, 4, 5, 5, 6, 7);
+
+console.log(countParameters.length);
